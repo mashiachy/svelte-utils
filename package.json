@@ -1,6 +1,7 @@
 {
 	"name": "@mashiachy/svelte-utils",
 	"version": "0.0.1",
+	"private": false,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
@@ -10,6 +11,8 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"author": "https://github.com/mashiachy",
+	"homepage": "https://github.com/mashiachy/svelte-utils",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mashiachy/svelte-utils"
